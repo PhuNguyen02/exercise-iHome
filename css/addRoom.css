@@ -1,0 +1,550 @@
+html, body {
+    width: 100%;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .container-body {
+    height: 500%;
+  }
+  
+  .container-body .main-container .slidebar {
+    width: 250px;
+    height: 100%;
+    -webkit-box-shadow: 0 12px 30px rgba(95, 94, 94, 0.251);
+            box-shadow: 0 12px 30px rgba(95, 94, 94, 0.251);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: fixed;
+  }
+  
+  .container-body .main-container .slidebar .logo {
+    padding: 25px 50px;
+  }
+  
+  .container-body .main-container .slidebar .logo a p {
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .container-body .main-container .slidebar ul li {
+    margin-left: 50px;
+    padding-bottom: 25px;
+  }
+  
+  .container-body .main-container .slidebar ul li .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-right: 30px;
+    cursor: pointer;
+  }
+  
+  .container-body .main-container .slidebar ul li .menu span {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .container-body .main-container .slidebar ul li .menu .arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+    -webkit-transform: rotate(180deg) translate(0, -50%);
+            transform: rotate(180deg) translate(0, -50%);
+  }
+  
+  .container-body .main-container .slidebar ul li .dropdown-menu {
+    display: none;
+  }
+  
+  .container-body .main-container .slidebar ul li .dropdown-menu li {
+    margin-left: 0px;
+    margin-top: 25px;
+  }
+  
+  .container-body .main-container .slidebar ul li .dropdown-menu li a {
+    color: gray;
+    font-size: 15px;
+  }
+  
+  .container-body .main-container .main-content {
+    margin-left: 250px;
+  }
+  
+  .container-body .main-container .main-content .main-header .header {
+    padding: 10px 20px;
+  }
+  
+  .container-body .main-container .main-content .main-header .header .header-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    z-index: 99;
+    position: relative;
+  }
+  
+  .container-body .main-container .main-content .main-header .header .header-inner .search {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 310px;
+    position: relative;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .container-body .main-container .main-content .main-header .header .header-inner .search .search-inner {
+    width: 100%;
+  }
+  
+  .container-body .main-container .main-content .main-header .header .header-inner .search .search-inner form .search-field input {
+    color: #86898e;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 15px;
+    background: 0 0;
+    border-radius: 30px;
+    border: 1px solid rgba(100, 197, 177, 0.6);
+    font-weight: 400;
+  }
+  
+  .container-body .main-container .main-content .main-header .header .header-inner .search .search-inner form button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: 0 0;
+    font-size: 12px;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 13px;
+    cursor: pointer;
+  }
+  
+  .container-body .main-container .main-content .main-header .header .header-inner .search .search-inner form button i {
+    background-color: white;
+    font-size: 15px;
+    color: gray;
+  }
+  
+  .container-body .main-container .main-content .main-header .header .header-inner .header-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .container-body .main-container .main-content .main-header .header .header-inner .header-right .header-notification {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 40px;
+    margin-right: 50px;
+  }
+  
+  .container-body .main-container .main-content .main-header .header .header-inner .header-right .header-notification li {
+    list-style: none;
+    margin-right: 30px;
+  }
+  
+  .container-body .main-container .main-content .main-header .header .header-inner .header-right .header-notification li:last-child {
+    margin-right: 0;
+  }
+  
+  .container-body .main-container .main-content .main-header .header .header-inner .header-right .header-notification li i {
+    color: #64c5b1;
+  }
+  
+  .container-body .main-container .main-content .main-header .header .header-inner .header-right .header-profile_info img {
+    width: 42px;
+    height: auto;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+  
+  .container-body .main-container .main-content .main-content-container {
+    min-height: 68vh;
+    position: relative;
+    background: #f3f4f3;
+    margin: 0;
+    z-index: 22;
+    padding: 30px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 160px;
+    z-index: -1;
+    background: #64c5b1;
+    content: '';
+    border-radius: 0;
+    left: 0;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-title h3 {
+    font-size: 30px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body {
+    margin-top: 50px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room {
+    background: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 40px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .home {
+    border-bottom: 1px solid gray;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .home .view-home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .home .view-home .home-1 {
+    margin-top: 20px;
+    width: 70px;
+    height: 40px;
+    border-radius: 5px 5px 0 0;
+    border: 1px solid #b8b4b4;
+    border-bottom: none;
+    border-right: 10px solid #b8b4b4;
+    font-size: 1.0rem;
+    text-align: center;
+    background-color: white;
+    margin-right: 5px;
+    margin-left: 15px;
+    margin-bottom: -1.5px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .home .view-home .home-1 p {
+    margin-top: 5px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid silver;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border {
+    padding: 20px;
+    border: 1px solid silver;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    padding: 5px 5px 0 0;
+    border-bottom: 1px solid silver;
+    margin-bottom: 20px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .status {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 20px 0;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .status p {
+    margin-right: 10px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-addroom {
+    font-size: 12px;
+    padding: 5px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-addroom button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-weight: 550;
+    padding: 10px 20px;
+    background-color: #1e9bcd;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-addroom button i {
+    color: white;
+    margin-right: 7px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-addroom button p {
+    color: white;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-addhome {
+    font-size: 12px;
+    padding: 5px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-addhome button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-weight: 550;
+    padding: 10px 20px;
+    background-color: #1ecda7;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-addhome button i {
+    color: white;
+    margin-right: 7px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-addhome button p {
+    color: white;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-delete-home {
+    padding: 5px;
+    font-size: 12px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-delete-home button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-weight: 550;
+    padding: 10px 20px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-delete-home button i {
+    color: white;
+    margin-right: 7px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-delete-home button p {
+    color: white;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-edit-home {
+    padding: 5px;
+    font-size: 12px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-edit-home button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-weight: 550;
+    padding: 10px 20px;
+    background-color: #006eff;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-edit-home button i {
+    color: white;
+    margin-right: 7px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .room-status .btn-choice .btn-edit-home button p {
+    color: white;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .container-viewroom {
+    margin-left: 20px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .container-viewroom .show-room {
+    border: 1px solid silver;
+    width: 25%;
+    border-radius: 5px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .container-viewroom .show-room .room-num {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .container-viewroom .show-room .room-num i {
+    margin-right: 10px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .container-viewroom .add-guest {
+    padding: 10px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .container-viewroom .add-guest button {
+    padding: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #1ecda7;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .container-viewroom .add-guest button:hover {
+    background-color: #3a8072;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .container-viewroom .guest-num {
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .container-viewroom .guest-num i {
+    margin-right: 10px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .container-viewroom .btn-room {
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .container-viewroom .btn-room button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 10px;
+    padding: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 5px;
+    color: white;
+    background-color: #e26060;
+    cursor: pointer;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .container-viewroom .btn-room button i {
+    margin-right: 5px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-content .border .container-viewroom .btn-room button:first-child {
+    background-color: #339fe7;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-addhome .formm {
+    padding: 20px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-addhome .formm table {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-addhome .formm table tr td {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 150px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-addhome .formm table tr td input {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-addhome .formm table tr td select {
+    padding: 5px;
+    border: 1px solid black;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-addhome .formm .button .Add {
+    margin-top: 20px;
+    padding: 15px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: aquamarine;
+  }
+  
+  .container-body .main-container .main-content .main-content-container .container-fluid .container-body .view-room .container-addhome .formm .button .Add:hover {
+    background-color: #14d393;
+  }
+  /*# sourceMappingURL=room.css.map */

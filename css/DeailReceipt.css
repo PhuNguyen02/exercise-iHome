@@ -1,0 +1,122 @@
+.container .body-content {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .body-content .title-content {
+  margin: 20px 0;
+}
+
+.container .body-content .title-content h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.container .body-content .title nav {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.container .body-content .info-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 100px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.container .body-content .info-content .col1 .tenants-name {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .body-content .info-content .col1 .tenants-name .name {
+  font-weight: 600;
+}
+
+.container .body-content .info-content .col1 .room-num {
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .body-content .info-content .col2 .phone-num {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .body-content .info-content .col2 .phone-num .sdth {
+  font-weight: 600;
+}
+
+.container .body-content .info-content .col2 .res {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .body-content .info-content .col2 .res .res-title {
+  font-weight: 600;
+}
+
+.container .body-content .table {
+  width: 100%;
+  font-size: 20px;
+}
+
+.container .body-content .table table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.container .body-content .table table thead tr {
+  height: 3em;
+}
+
+.container .body-content .table table thead tr th {
+  border: 1px solid black;
+}
+
+.container .body-content .table table tbody tr {
+  height: 3em;
+}
+
+.container .body-content .table table tbody tr td {
+  border: 1px solid black;
+}
+/*# sourceMappingURL=DeailReceipt.css.map */
